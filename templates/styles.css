@@ -1,0 +1,132 @@
+/* Reset some default styles */
+body, h1, h2, ul, li, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: url('pic3.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+   
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff9c;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.616);
+  border-radius: 8px;
+  margin-top: 50px;
+  padding-bottom: 90px;
+  height: 9.5%;
+  background: linear-gradient(90deg, rgba(0, 128, 220, 0.995), rgb(0, 191, 255));
+  color: #fff;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between; /* Space between items */
+  align-items: center;
+  width: 90%;
+  max-width: 1200px; /* Optional: To limit the width */
+}
+
+header h1 {
+  
+  font-size: 1.8rem;
+  text-align: center;
+  flex-grow: 1; /* Allow the title to take up available space */
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  margin-left: 0; /* Remove margin since we use gap in flexbox */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem 0;
+}
+
+.container {
+  
+  width: 30%;
+  margin: 0 auto;
+  
+
+}
+
+.container1 {
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 400px;
+}
+
+#offerings {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column; /* Arrange buttons vertically */
+  gap: 10px; /* Space between buttons */
+ 
+}
+
+.button {
+  box-shadow: 10px 10px 10px 10px rgba(2,0,0,0.616);
+  background: linear-gradient(90deg, rgba(0, 128, 220, 0.995), rgb(0, 191, 255));
+  padding: 20px 0px 20px;
+  color: #fff;
+  
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background 0.3s;
+  text-align: center; /* Center text within button */
+}
+
+.button:hover {
+  background: linear-gradient(90deg,rgb(0, 191, 255), rgba(0, 128, 220, 0.995));
+}
+
+footer {
+  background: #f4f4f4;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}

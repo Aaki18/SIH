@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offer Mentorship - Alumni Association</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Offer Mentorship</h1>
+        <p style="padding-left:450px;">Share your expertise and help guide the next generation of students by offering mentorship.</p>
+        
+        <!-- Mentorship Offer Form -->
+        <form action="/offer_mentorship" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="area_of_interest">Area of Interest:</label>
+            <input type="text" id="area_of_interest" name="area_of_interest" required>
+            
+            <label for="skills">Skills:</label>
+            <input type="text" id="skills" name="skills" required>
+            
+            <button type="submit">Submit Mentorship Offer</button>
+        </form>
+        
+
+        <div class="buttons">
+            <a href="index.html" class="btn">Back</a>
+            <a href="success_stories.html" class="btn">Success Stories</a>
+            <a href="donate.html" class="btn">Donate</a>
+        </div>
+    </div>
+</body>
+</html>

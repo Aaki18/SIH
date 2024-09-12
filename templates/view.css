@@ -1,0 +1,152 @@
+body {
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.background{
+
+  background: url('home.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+ 
+}
+
+header {
+   
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff9c;
+  box-shadow: 10px 20px 10px 20px rgba(0, 0, 0, 0.616);
+  border-radius: 8px;
+  margin-top: 50px;
+  padding-bottom: 90px;
+  height: 9.5%;
+  background: linear-gradient(90deg, rgba(6, 30, 48, 0.237),rgba(6, 30, 48, 0.237));
+  color: #fff;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between; /* Space between items */
+  align-items: center;
+  width: 90%;
+  max-width: 1200px; /* Optional: To limit the width */
+}
+
+header h1 {
+  
+  font-size: 1.8rem;
+  text-align: center;
+  flex-grow: 1; /* Allow the title to take up available space */
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  margin-left: 0; /* Remove margin since we use gap in flexbox */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+main {
+  
+  padding: 20px;
+  text-align: center;
+}
+
+.intro {
+  margin-bottom: 20px;
+   
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff9c;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.616);
+  border-radius: 8px;
+  margin-top: 50px;
+  padding-bottom: 90px;
+}
+
+.views {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff9c;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.616);
+  border-radius: 8px;
+  margin-top: 50px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.view-card {
+  background-color: #ffffff9c;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.616);
+  border-radius: 8px;
+  
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.view-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.view-card p {
+  color: #555;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background: #0056b3;
+}
+
+footer {
+  background: #007BFF;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

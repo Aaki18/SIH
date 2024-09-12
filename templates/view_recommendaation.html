@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorship Recommendations - Alumni Association</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mentorship Recommendations</h1>
+        <p>Based on your area of interest and skills, here are some mentorship recommendations for you.</p>
+        
+        <!-- Recommendations List -->
+        <div class="recommendations">
+            
+                <div class="recommendation">
+                    <h4>{{ recommendation.name }}</h4>
+                    <p><strong>Email:</strong> {{ recommendation.email }}</p>
+                    <p><strong>Area of Interest:</strong> {{ recommendation.area_of_interest }}</p>
+                    <p><strong>Skills:</strong> {{ recommendation.skills }}</p>
+                </div>
+            
+                <p>No mentorship recommendations available at the moment.</p>
+           
+        </div>
+        
+        <div class="buttons">
+            <a href="index.html" class="btn">Back</a>
+            <a href="offer_mentorship.html" class="btn">Offer Mentorship</a>
+          
+        </div>
+    </div>
+</body>
+</html>

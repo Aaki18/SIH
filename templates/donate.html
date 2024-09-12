@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Donate - Alumni Association</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Make a Donation</h1>
+        <p style="padding-left: 450px;">Your contribution helps us support various initiatives and projects. Thank you for your generosity!</p>
+        
+        <!-- Donation Form -->
+        <form action="/donate" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" min="1" required>
+            
+            <label for="message">Message (optional):</label>
+            <textarea id="message" name="message" rows="10"></textarea>
+            
+            <button type="submit">Submit Donation</button>
+            <br>
+            <br>
+        </form>
+    
+        
+        <div class="buttons">
+            <a href="index.html" class="btn">Back</a>
+            
+        </div>
+    </div>
+</body>
+</html>
